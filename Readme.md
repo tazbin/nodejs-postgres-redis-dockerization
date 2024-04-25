@@ -51,7 +51,7 @@ Follow these steps to run the Node.js application with PostgreSQL and Redis in D
 - **Description:** Just shows hello world
 - **Response status:** `200 OK`
 - **Response Payload:**
-  ```json
+  ```
   Hello World!
   ```
 
@@ -88,22 +88,20 @@ Follow these steps to run the Node.js application with PostgreSQL and Redis in D
 - **Response Payload:**
   ```json
   [
-   ...
     {
-        "id": 12,
+        "id": 1,
         "name": "Tazbinur",
         "age": 25,
         "createdAt": "2024-04-20T18:57:54.001Z",
         "updatedAt": "2024-04-20T18:57:54.001Z"
     },
     {
-        "id": 13,
+        "id": 2,
         "name": "Imtiaz",
         "age": 30,
         "createdAt": "2024-04-20T18:58:08.331Z",
         "updatedAt": "2024-04-20T18:58:08.331Z"
-    },
-    ...
+    }
   ]
   ```
 
