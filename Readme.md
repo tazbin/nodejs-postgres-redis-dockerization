@@ -46,30 +46,29 @@ Follow these steps to run the Node.js application with PostgreSQL and Redis in D
 
 ### 1. Hello world
 
-- **Method:** `GET`
-- **URL:** `localhost:3000`
-- **Description:** Just shows hello world
-- **Response status:** `200 OK`
-- **Response Payload:**
-
+- Method: `GET`
+- URL: `localhost:3000`
+- Description: Just shows hello world
+- Response status: `200 OK`
+- Response Payload:
   ```
   Hello World!
   ```
 
-### 1. Create user
+### 2. Create user
 
-- **Method:** `POST`
-- **URL:** `localhost:3000/users`
-- **Description:** Creates a new user
-- **Request Payload:**
+- Method: `POST`
+- URL: `localhost:3000/users`
+- Description: Creates a new user
+- Request Payload:
   ```json
   {
     "name": "Tazbinur",
     "age": 25
   }
   ```
-- **Response status:** `200 OK`
-- **Response Payload:**
+- Response status: `200 OK`
+- Response Payload:
   ```json
   {
     "id": 1,
@@ -80,13 +79,13 @@ Follow these steps to run the Node.js application with PostgreSQL and Redis in D
   }
   ```
 
-  ### 2. Get user list
+### 3. Get user list
 
-- **Method:** `GET`
-- **URL:** `localhost:3000/users`
-- **Description:** Gets list of saved users
-- **Response status:** `200 OK`
-- **Response Payload:**
+- Method: `GET`
+- URL: `localhost:3000/users`
+- Description: Gets list of saved users
+- Response status: `200 OK`
+- Response Payload:
   ```json
   [
     {
