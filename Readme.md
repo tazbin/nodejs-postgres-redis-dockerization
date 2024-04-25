@@ -51,6 +51,7 @@ Follow these steps to run the Node.js application with PostgreSQL and Redis in D
 - **Description:** Just shows hello world
 - **Response status:** `200 OK`
 - **Response Payload:**
+
   ```
   Hello World!
   ```
